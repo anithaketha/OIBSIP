@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+#calculator {
+    background-color: #333;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+}
+
+input {
+    width: calc(100% - 30px);
+    padding: 15px;
+    font-size: 24px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    margin: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+button.operator {
+    background-color: #ff9500;
+    color: #fff;
+}
+
+button.equals {
+    background-color: #4cd964;
+    color: #fff;
+}
+
+button.clear,
+button.delete {
+    background-color: #ff3b30;
+    color: #fff;
+}
+
+button.trigonometric {
+    background-color: #007bff;
+    color: #fff;
+}
+
+button.integration {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+button.braces {
+    background-color: #f0f0f0;
+    color: #333;
+}

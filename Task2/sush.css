@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* background:linear-gradient(to right, #808080, #ffffff, #404040);
+    
+    height: 100vh; */
+ 
+}
+
+nav {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo  {
+   color:white;
+   font-weight: bold;
+   font-family: sans-serif;
+   font-style: italic;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 10px;
+    color: grey !important;
+}
+
+.menu li a {
+    color: black !important;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.background {
+    position: relative;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.background img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 1.0;
+    margin-top: 0px;
+}
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+    padding:5px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.card-container {
+    border: 1px solid gray;
+    border-radius: 24px;
+    background: white;
+    margin: auto;
+    margin-top: 80px;
+    width: 92%;
+    max-width: 300px;
+margin-bottom: 30px;
+  }
+  
+  .heading {
+    padding-left: 20px;
+    font-size: 25px;
+    margin:20px 0px 20px;
+text-align: center;
+font-weight: bold;
+    
+  }
+  .heading2 {
+    padding-left: 15px;
+    font-size: 25px;
+    margin:15px 0px 15px;
+text-align: center;
+font-weight: bold;
+  }
+  .movies-heading{
+    text-align: center;
+    font-family: cursive;
+  }
+  .card-body {
+    padding: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-top: 1px solid EAB20C;
+    height: 50vh;
+    overflow-y: auto;
+  }
+  
+  .image {
+    border-radius: 20px;
+    width: 100%;
+    height: 65%;
+    max-width: 700px;
+
+  }
+
+  .round-image {
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    overflow: hidden;
+    /* float:left; */
+    border-radius: 50%; /* Make it round */
+    margin-left:180px;
+    margin-right: 40px;
+  }
+
+  .round-image img {
+    /* width: 100%; */
+    /* height: auto; */
+    display: block;
+  }
+
+
+
+
+
+
+
+.edu-head{
+text-align: center;
+margin-left:450px;
+}
+
+.edu-info {
+  background: linear-gradient(to bottom, rgba(169, 169, 169, 0.4) 40%, rgba(255, 255, 255, 0.8) 40%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: 10px auto;
+  overflow: hidden;
+  max-width: 600px; 
+  width: 100%; 
+  border-radius: 10px;
+  height: 200px; 
+}
+
+.edu-info h2 {
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 20px;
+  overflow-wrap: break-word; 
+}
+
+.edu-info h3 {
+  color: #ffbf35;
+  font-weight: 500;
+  margin-bottom: 2px;
+  font-size: 17px;
+  overflow-wrap: break-word; /* Allow long words to break and wrap */
+}
+
+.edu-info p {
+  font-size: 15px;
+  overflow-wrap: break-word; /* Allow long words to break and wrap */
+}
+
+.year {
+  float: right;
+}
+.awards-heading{
+
+     font-family:'Lucida Sans';
+     font-weight: bold;
+     /* font-size: 30px; */
+
+     text-align: center;
+
+}
+#footerSection{
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.foot-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1.0;
+  margin-top: 0px;
+}
+.remember{
+  background-color: black;
+  color:white;
+  text-align: center;
+  font-style: italic;
+}
